@@ -5,10 +5,12 @@
 //  Created by Javier Castañeda on 14/11/22.
 //
 
-import Foundation
+import UIKit
 
 final class LoginRouter: LoginRouterProtocol {
     func navigateToWalktrought(from view: LoginViewProtocol?) {
-        print("navigate to walktrought")
+        let walktroughtView = WalkthroughViewController()
+        UIApplication.currentWindow?.rootViewController = walktroughtView
+        UIApplication.currentWindow?.makeKeyAndVisible()
     }
 }
