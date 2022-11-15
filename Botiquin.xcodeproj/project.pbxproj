@@ -11,10 +11,12 @@
 		A34C6833DC0C184032038D68 /* Pods_Botiquin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF788DCA7F0F435CD1BA8239 /* Pods_Botiquin.framework */; };
 		CC16B32D29171C3F00DC2EE9 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC16B32C29171C3F00DC2EE9 /* ColorPalette.swift */; };
 		CC16B32F29180C7F00DC2EE9 /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC16B32E29180C7D00DC2EE9 /* FontStyles.swift */; };
+		CC16B33529180FB400DC2EE9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC16B33429180FB400DC2EE9 /* SplashViewController.swift */; };
+		CC39D86B291AA1BE00D1087C /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39D86A291AA1BE00D1087C /* SplashViewModel.swift */; };
 		CC81DF0E2917105000CB4DE4 /* FlexiblePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81DF0D2917105000CB4DE4 /* FlexiblePageControl.swift */; };
+		CCA1D05A29230AE00010CD4D /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D05929230AE00010CD4D /* ArrayExtensions.swift */; };
 		CCA9C48C290B38FA00CFCD9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C48B290B38FA00CFCD9D /* AppDelegate.swift */; };
 		CCA9C48E290B38FA00CFCD9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C48D290B38FA00CFCD9D /* SceneDelegate.swift */; };
-		CCA9C490290B38FA00CFCD9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C48F290B38FA00CFCD9D /* ViewController.swift */; };
 		CCA9C493290B38FA00CFCD9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA9C491290B38FA00CFCD9D /* Main.storyboard */; };
 		CCA9C495290B38FD00CFCD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA9C494290B38FD00CFCD9D /* Assets.xcassets */; };
 		CCA9C498290B38FD00CFCD9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA9C496290B38FD00CFCD9D /* LaunchScreen.storyboard */; };
@@ -57,11 +59,13 @@
 		BEAC3CC945CA14084B4CD0B5 /* Pods-Botiquin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Botiquin.release.xcconfig"; path = "Target Support Files/Pods-Botiquin/Pods-Botiquin.release.xcconfig"; sourceTree = "<group>"; };
 		CC16B32C29171C3F00DC2EE9 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		CC16B32E29180C7D00DC2EE9 /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
+		CC16B33429180FB400DC2EE9 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CC39D86A291AA1BE00D1087C /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		CC81DF0D2917105000CB4DE4 /* FlexiblePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexiblePageControl.swift; sourceTree = "<group>"; };
+		CCA1D05929230AE00010CD4D /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		CCA9C488290B38FA00CFCD9D /* Botiquin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Botiquin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA9C48B290B38FA00CFCD9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCA9C48D290B38FA00CFCD9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCA9C48F290B38FA00CFCD9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCA9C492290B38FA00CFCD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCA9C494290B38FD00CFCD9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA9C497290B38FD00CFCD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -143,6 +147,23 @@
 			path = Styles;
 			sourceTree = "<group>";
 		};
+		CC16B33029180F2E00DC2EE9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CC16B33129180F4100DC2EE9 /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CC16B33129180F4100DC2EE9 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CC16B33429180FB400DC2EE9 /* SplashViewController.swift */,
+				CC39D86A291AA1BE00D1087C /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		CC81DF0929170FF900CB4DE4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +175,7 @@
 		CC81DF0A2917101E00CB4DE4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CCA1D05829230ACF0010CD4D /* Extensions */,
 				CC81DF0B2917102A00CB4DE4 /* Components */,
 			);
 			path = Utils;
@@ -197,6 +219,14 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		CCA1D05829230ACF0010CD4D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1D05929230AE00010CD4D /* ArrayExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CCA9C47F290B38FA00CFCD9D = {
 			isa = PBXGroup;
 			children = (
@@ -223,9 +253,9 @@
 			isa = PBXGroup;
 			children = (
 				CC81DF0929170FF900CB4DE4 /* Classes */,
+				CC16B33029180F2E00DC2EE9 /* Modules */,
 				CC81DF10291712CF00CB4DE4 /* Storyboards */,
 				CC81DF0F2917109E00CB4DE4 /* SupportFiles */,
-				CCA9C48F290B38FA00CFCD9D /* ViewController.swift */,
 			);
 			path = Botiquin;
 			sourceTree = "<group>";
@@ -509,11 +539,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC16B32D29171C3F00DC2EE9 /* ColorPalette.swift in Sources */,
-				CCA9C490290B38FA00CFCD9D /* ViewController.swift in Sources */,
 				CC16B32F29180C7F00DC2EE9 /* FontStyles.swift in Sources */,
 				CC81DF0E2917105000CB4DE4 /* FlexiblePageControl.swift in Sources */,
+				CC39D86B291AA1BE00D1087C /* SplashViewModel.swift in Sources */,
 				CCA9C48C290B38FA00CFCD9D /* AppDelegate.swift in Sources */,
+				CC16B33529180FB400DC2EE9 /* SplashViewController.swift in Sources */,
 				CCA9C48E290B38FA00CFCD9D /* SceneDelegate.swift in Sources */,
+				CCA1D05A29230AE00010CD4D /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
