@@ -37,8 +37,8 @@ final class SplashViewController: UIViewController {
         setupUI()
         viewModel
             .imagePubliser
-            .sink { _ in
-                print("Send to login")
+            .sink { [weak self] _ in
+                self?.navigateToLogin()
             } receiveValue: {[weak self] image in
                 self?.imageView.image = image
             }
@@ -64,4 +64,9 @@ final class SplashViewController: UIViewController {
         ])
     }
 
+    private func navigateToLogin() {
+        guard let loginViewController = LoginBuilder.buildModule() else { return }
+        let window = UIApplication.currentWindow
+        window?.rootViewController = loginViewController
+    }
 }
