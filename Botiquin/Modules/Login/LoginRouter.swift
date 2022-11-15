@@ -9,7 +9,7 @@ import UIKit
 
 final class LoginRouter: LoginRouterProtocol {
     func navigateToWalktrought(from view: LoginViewProtocol?) {
-        let walktroughtView = WalktroughtViewController()
+        let walktroughtView = WalkthroughViewController()
         UIApplication.currentWindow?.rootViewController = walktroughtView
         UIApplication.currentWindow?.makeKeyAndVisible()
     }

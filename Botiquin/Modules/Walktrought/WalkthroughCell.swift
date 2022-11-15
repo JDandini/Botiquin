@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class WalktroughtCell: UICollectionViewCell {
+final class WalkthroughCell: UICollectionViewCell {
     static let identifier: String = "WalktroughtCell"
     struct Metrics {
         static let marginOffset: CGFloat = 100

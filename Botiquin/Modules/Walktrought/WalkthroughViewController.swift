@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class WalktroughtViewController: UIViewController {
+final class WalkthroughViewController: UIViewController {
     struct Metrics {
         static let offset: CGFloat = 40
         static let footerHeight: CGFloat = 60
@@ -56,7 +56,7 @@ final class WalktroughtViewController: UIViewController {
         view.addSubview(footerView)
         view.addSubview(pageControl)
         view.addSubview(collectionView)
-        collectionView.register(WalktroughtCell.self, forCellWithReuseIdentifier: WalktroughtCell.identifier)
+        collectionView.register(WalkthroughCell.self, forCellWithReuseIdentifier: WalkthroughCell.identifier)
         collectionView.dataSource = self
         collectionView.delegate = self
     }
@@ -81,14 +81,14 @@ final class WalktroughtViewController: UIViewController {
     }
 }
 
-extension WalktroughtViewController: UICollectionViewDataSource {
+extension WalkthroughViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 3
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let dequeuedCell = collectionView.dequeueReusableCell(withReuseIdentifier: WalktroughtCell.identifier, for: indexPath)
-        guard let cell = dequeuedCell as? WalktroughtCell else {
+        let dequeuedCell = collectionView.dequeueReusableCell(withReuseIdentifier: WalkthroughCell.identifier, for: indexPath)
+        guard let cell = dequeuedCell as? WalkthroughCell else {
             return dequeuedCell
         }
         cell.configure(with: loremIpsum)
@@ -96,9 +96,9 @@ extension WalktroughtViewController: UICollectionViewDataSource {
     }
 }
 
-extension WalktroughtViewController: UICollectionViewDelegate {}
+extension WalkthroughViewController: UICollectionViewDelegate {}
 
-extension WalktroughtViewController: UICollectionViewDelegateFlowLayout {
+extension WalkthroughViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -106,7 +106,7 @@ extension WalktroughtViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
-extension WalktroughtViewController: UIScrollViewDelegate {
+extension WalkthroughViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         pageControl.setProgress(contentOffsetX: scrollView.contentOffset.x,
                                 pageWidth: scrollView.bounds.width)
