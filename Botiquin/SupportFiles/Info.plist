@@ -16,6 +16,10 @@
 		<string>Poppins-Semibold.ttf</string>
 		<string>Poppins-Thin.ttf</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>es</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
