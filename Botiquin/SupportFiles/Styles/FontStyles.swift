@@ -17,15 +17,15 @@ public extension UIFont {
     }
 
     class var h1Small: UIFont? {
-        return UIFont(name: "Poppins-Bold", size: 24)
+        return UIFont(name: "Poppins-Light", size: 24)
     }
 
     class var h2: UIFont? {
-        return UIFont(name: "Poppins-Bold", size: 20)
+        return UIFont(name: "Poppins-Regular", size: 20)
     }
 
     class var h3: UIFont? {
-        return UIFont(name: "Poppins-Bold", size: 18)
+        return UIFont(name: "Poppins-Light", size: 18)
     }
 
     class var h4: UIFont? {
@@ -45,7 +45,7 @@ public extension UIFont {
     }
 
     class var  paragraph: UIFont? {
-        return UIFont(name: "Karla-Bold", size: 14)
+        return UIFont(name: "Karla-Regular", size: 14)
     }
 
     class var  paragraphMedium: UIFont? {

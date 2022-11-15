@@ -43,6 +43,7 @@
 		CCA1D09B292356DE0010CD4D /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D09A292356DE0010CD4D /* LoginRouter.swift */; };
 		CCA1D09D292357280010CD4D /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D09C292357280010CD4D /* LoginBuilder.swift */; };
 		CCA1D09F292357AB0010CD4D /* WindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D09E292357AB0010CD4D /* WindowExtensions.swift */; };
+		CCA1D0A229235B900010CD4D /* WalktroughtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA1D0A129235B900010CD4D /* WalktroughtViewController.swift */; };
 		CCA9C48C290B38FA00CFCD9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C48B290B38FA00CFCD9D /* AppDelegate.swift */; };
 		CCA9C48E290B38FA00CFCD9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C48D290B38FA00CFCD9D /* SceneDelegate.swift */; };
 		CCA9C493290B38FA00CFCD9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA9C491290B38FA00CFCD9D /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		CCA9C4A3290B38FD00CFCD9D /* BotiquinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C4A2290B38FD00CFCD9D /* BotiquinTests.swift */; };
 		CCA9C4AD290B38FD00CFCD9D /* BotiquinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C4AC290B38FD00CFCD9D /* BotiquinUITests.swift */; };
 		CCA9C4AF290B38FD00CFCD9D /* BotiquinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C4AE290B38FD00CFCD9D /* BotiquinUITestsLaunchTests.swift */; };
+		CCCEFADB2923BF440050F341 /* WalktroughtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEFADA2923BF440050F341 /* WalktroughtCell.swift */; };
 		CCE3BCCC2917199D009CED24 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE3BCC32917199C009CED24 /* Poppins-ExtraBold.ttf */; };
 		CCE3BCCD2917199D009CED24 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE3BCC42917199C009CED24 /* Poppins-Black.ttf */; };
 		CCE3BCCE2917199D009CED24 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE3BCC52917199C009CED24 /* Poppins-Regular.ttf */; };
@@ -119,6 +121,7 @@
 		CCA1D09A292356DE0010CD4D /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		CCA1D09C292357280010CD4D /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
 		CCA1D09E292357AB0010CD4D /* WindowExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowExtensions.swift; sourceTree = "<group>"; };
+		CCA1D0A129235B900010CD4D /* WalktroughtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalktroughtViewController.swift; sourceTree = "<group>"; };
 		CCA9C488290B38FA00CFCD9D /* Botiquin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Botiquin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA9C48B290B38FA00CFCD9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCA9C48D290B38FA00CFCD9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 		CCA9C4A8290B38FD00CFCD9D /* BotiquinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotiquinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA9C4AC290B38FD00CFCD9D /* BotiquinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotiquinUITests.swift; sourceTree = "<group>"; };
 		CCA9C4AE290B38FD00CFCD9D /* BotiquinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotiquinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCCEFADA2923BF440050F341 /* WalktroughtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalktroughtCell.swift; sourceTree = "<group>"; };
 		CCE3BCC32917199C009CED24 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
 		CCE3BCC42917199C009CED24 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
 		CCE3BCC52917199C009CED24 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -206,6 +210,7 @@
 		CC16B33029180F2E00DC2EE9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CCA1D0A029235AAC0010CD4D /* Walktrought */,
 				CCA1D05B2923141C0010CD4D /* Login */,
 				CC16B33129180F4100DC2EE9 /* Splash */,
 			);
@@ -292,11 +297,11 @@
 		CCA1D05B2923141C0010CD4D /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				CCA1D094292317700010CD4D /* LoginViewController.swift */,
-				CCA1D096292354F90010CD4D /* LoginProtocols.swift */,
-				CCA1D098292356960010CD4D /* LoginPresenter.swift */,
-				CCA1D09A292356DE0010CD4D /* LoginRouter.swift */,
 				CCA1D09C292357280010CD4D /* LoginBuilder.swift */,
+				CCA1D098292356960010CD4D /* LoginPresenter.swift */,
+				CCA1D096292354F90010CD4D /* LoginProtocols.swift */,
+				CCA1D09A292356DE0010CD4D /* LoginRouter.swift */,
+				CCA1D094292317700010CD4D /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -349,6 +354,15 @@
 				CCA1D085292314D50010CD4D /* AKMaskFieldStatus.swift */,
 			);
 			path = AKMaskField;
+			sourceTree = "<group>";
+		};
+		CCA1D0A029235AAC0010CD4D /* Walktrought */ = {
+			isa = PBXGroup;
+			children = (
+				CCCEFADA2923BF440050F341 /* WalktroughtCell.swift */,
+				CCA1D0A129235B900010CD4D /* WalktroughtViewController.swift */,
+			);
+			path = Walktrought;
 			sourceTree = "<group>";
 		};
 		CCA9C47F290B38FA00CFCD9D = {
@@ -672,6 +686,7 @@
 				CCA1D076292314BD0010CD4D /* PasswordValidation.swift in Sources */,
 				CC16B32D29171C3F00DC2EE9 /* ColorPalette.swift in Sources */,
 				CCA1D09B292356DE0010CD4D /* LoginRouter.swift in Sources */,
+				CCA1D0A229235B900010CD4D /* WalktroughtViewController.swift in Sources */,
 				CCA1D097292354FA0010CD4D /* LoginProtocols.swift in Sources */,
 				CCA1D08A292314D50010CD4D /* AKMaskFieldUtility.swift in Sources */,
 				CCA1D08B292314D50010CD4D /* AKMaskFieldBlockCharacter.swift in Sources */,
@@ -689,6 +704,7 @@
 				CCA1D077292314BD0010CD4D /* RegexType.swift in Sources */,
 				CCA1D086292314D50010CD4D /* AKMaskFieldBrackets.swift in Sources */,
 				CCA1D087292314D50010CD4D /* AKMaskFieldEvent.swift in Sources */,
+				CCCEFADB2923BF440050F341 /* WalktroughtCell.swift in Sources */,
 				CCA9C48C290B38FA00CFCD9D /* AppDelegate.swift in Sources */,
 				CC16B33529180FB400DC2EE9 /* SplashViewController.swift in Sources */,
 				CCA1D05E2923147F0010CD4D /* FloatLabelTextField.swift in Sources */,
